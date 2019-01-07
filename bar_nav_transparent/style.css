@@ -1,0 +1,40 @@
+*{padding: 0;
+    margin: 0;
+box-sizing: border-box}
+
+.add{height: 100px;}
+
+.header{
+    width: 100%;
+    height: 1000px;
+    background-image:url(images/3865967-wallpaper-full-hd_XNgM7er.jpg);
+    background-size: cover; 
+}
+.navbar{width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    transition: .5s;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+    color: black;
+    font-size: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s
+}
+.navbar ul li:hover{
+    background: orange;
+}
+.box{
+    width: 80%;
+    height: 2000px;
+    background: green;
+    margin: 20px auto;
+}
+.navbar2  ul li{color: white;}
